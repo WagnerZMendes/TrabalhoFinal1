@@ -12,6 +12,6 @@
     $linhas = mysqli_affected_rows($con);
 
     mysqli_close($con)
-    
+    header('Location: servicos.html');
     
 ?>
